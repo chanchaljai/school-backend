@@ -1,4 +1,4 @@
-import User from "../models/User.js";
+import User from "../models/user.js";
 
 // @desc    Create new user
 // @route   POST /api/users
