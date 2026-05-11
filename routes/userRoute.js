@@ -9,7 +9,11 @@ import {
 
 const router = express.Router();
 
-// Create user
+/**
+ * ================= USER CRUD ROUTES =================
+ */
+
+// Create user (admin adds student/teacher/accountant)
 router.post("/", createUser);
 
 // Get all users
